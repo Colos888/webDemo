@@ -1,0 +1,276 @@
+#divHeader{
+}
+#header{
+	list-style-type: none;
+	padding-left: 30px;
+}
+#header>li{
+	display: inline-block;
+	padding-left: 40px;
+}
+#header a{
+	color: black;
+	text-decoration: none;
+}
+#header a:hover{
+	color: #fff;
+}
+/*设置图标*/
+#logo,img{
+	width: 50px;
+	height: 50px;
+}
+#logo{
+	margin-left: 8%;
+	display: inline-block;
+}
+
+/*搜索框的设置*/
+.search{
+    width: 500px;
+    /*display: flex;*/
+    display: inline-block;
+}
+.search input{
+    float: left;//左浮动
+    /*flex: 4;*/
+    display: inline-block;
+    height: 50px;
+    outline: none;
+    width: 400px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.search button{
+    float: right;
+    /*flex: 1;*/
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background-color: #1296db;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+.search button i{
+    font-style: normal;
+}
+.search button:hover{
+    font-size: 18px;
+}
+/*logo和搜索框设置*/
+#logoAndSearch{
+	padding-top: 2%;
+}
+/*为body设置背景图*/
+body{
+	background-image: url("images/1.jpg");
+}
+
+/*设置底部样式*/
+#bottom{
+	list-style-type: none;
+	width: 100%;
+	height: 30px;
+	background-color: #333;
+	position: absolute;
+	bottom: 0;
+}
+#bottom ul{
+	margin: 0;
+	margin-left: 50px;
+}
+#bottom>li{
+	display: inline-block;
+	padding-left: 35px;
+	padding-top: 5px;
+	
+}
+#bottom a{
+	color: black;
+	text-decoration: none;
+}
+#bottom a:hover{
+	color: #666;
+	text-decoration: underline;
+}
+
+/*设置时间*/
+#clockDiv{
+	color: white;
+	width: 400px;
+	font-size: 35px;
+	font-family: '宋体';
+	position: absolute;
+	right: 5%;
+	top: 6%;
+}
+#clock p{
+	display: inline-block;
+}
+/*设置通知*/
+#message{
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+#message img{
+	width: 30px;
+	height: 30px;
+}
+/*设置广告*/
+#ad{
+	width: 250px;
+	height: 350px;
+}
+#adDiv{
+	position: absolute;
+	right: 5px;
+	bottom:2px;
+}
+#dtime{
+	color: red;
+}
+
+/*新闻版块*/
+#newsDiv{
+	padding-top: 20px;
+	padding-left: 50px;
+	color: white;
+}
+#news img{
+	width: 450px;
+	height: 280px;
+	padding-left: 30px;
+}
+/*设置飞机*/
+#plane img{
+	height: 30px;
+}
+
+/*左右固定框*/
+div.nav-fix{
+	position: fixed;
+	top: 230px;
+	right: 10px;
+}
+div.nav-fix2{
+	position: fixed;
+	top: 230px;
+	left: 10px;
+}
+
+ul.fix>li{
+	background-color: grey;
+	width: 32px;
+	padding: 10px;
+	height: 32px;
+	line-height: 60px;
+	font-size: 15px;
+	list-style-type: none;
+
+}
+ul.fix>li>a{
+	color: white;
+	width: 32px;
+	height: 32px;
+	padding-top: 0;
+	text-decoration: none;
+}
+ul.fix>li>a:hover{
+	border-bottom: 1px solid white;
+}
+ul.fix{
+	padding-left: 0;
+}
+
+/*新闻版块*/
+div.content1{
+	padding-top: 20px;
+	width: 1000px;
+	height: 270px;
+	margin: 0 auto;
+
+}
+
+div.goods1{
+	background: url(images/goods1.jpg);
+	width: 165px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 260px;
+	border: 1px solid grey;
+	position: relative;
+	margin-right: 2px;
+	float: left;
+}
+div.goods2{
+	background: url(images/goods2.jpg);
+	width: 165px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 260px;
+	border: 1px solid grey;
+	position: relative;
+	margin-right: 2px;
+	float: left;
+}
+div.goods3{
+	background: url(images/goods3.jpg);
+	width: 165px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 260px;
+	border: 1px solid grey;
+	position: relative;
+	margin-right: 2px;
+	float: left;
+}
+div.goods4{
+	background: url(images/goods4.jpg);
+	width: 165px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 260px;
+	border: 1px solid grey;
+	position: relative;
+	margin-right: 2px;
+	float: left;
+}
+div.goods5{
+	background: url(images/goods5.jpg);
+	width: 165px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 260px;
+	border: 1px solid grey;
+	position: relative;
+	margin-right: 2px;
+	float: left;
+}
+
+p.wenben{
+	position: absolute;
+	bottom: 20px;
+	color: #D3D3D3;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+span.brand{
+	color: white;
+}
+.jiage{
+	font-size: 20px;
+	color: white;
+}
+#foryou{
+	font-size: 17px;
+	color: white;
+}
